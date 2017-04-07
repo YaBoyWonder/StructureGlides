@@ -4,7 +4,7 @@ $file = null;
 $dir = dirname(__FILE__).'/';
 $repositoryTemplate = 'file.php';
 if (file_exists($dir.'config.php')) {
-  include $dir.'config.php';
+ include $dir.'config.php';
  $dir = rtrim($dir, '/').'/';
 }
 
