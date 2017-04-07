@@ -1,16 +1,8 @@
 <?php
 
-/**
- * Slippy
- * Copyright (C) 2017, Rahul Chalumuri
- *
- * Version: 0.9.0
- */
-
-
 $file = null;
 $dir = dirname(__FILE__).'/';
-$repositoryTemplate = 'repo.php';
+$repositoryTemplate = 'file.php';
 if (file_exists($dir.'config.php')) {
     include $dir.'config.php';
     $dir = rtrim($dir, '/').'/';
