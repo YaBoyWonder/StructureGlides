@@ -8,7 +8,6 @@ include $dir.'config.php';
 $dir = rtrim($dir, '/').'/';
 }
 
-
 if (PHP_SAPI === 'cli') {
     if (!isset($_SERVER['argv'][1])) {
         echo "USAGE: index.php <name of your slides html file> [<target file>]\n";
